@@ -51,15 +51,15 @@ You can change certain parts of the code to adjust the setup and the sound of yo
 
 (The above information is cited from SpikenzieLabs - Drum Kit - Kit, http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html)
 
-Addition Information
+Additional Information
 - 
 - The code is compatible with the Arduino MIDI Library. You need to initialise the Serial port after the MIDI library, like this:
 
   void setup() {
 
-    MIDI.begin();
+      MIDI.begin();
  
-   Serial.begin(115200);
+      Serial.begin(115200);
 
   }
 
