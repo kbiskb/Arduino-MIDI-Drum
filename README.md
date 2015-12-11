@@ -50,3 +50,21 @@ You can change certain parts of the code to adjust the setup and the sound of yo
 - VelocityFlag: Is a true or false setting to use velocity or not. Velocity is the value of how hard you hit the drum pad. A higher velocity would produce a louder drum sound.
 
 (The above information is cited from SpikenzieLabs - Drum Kit - Kit, http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html)
+
+Addition Information
+- 
+- The code is compatible with the Arduino MIDI Library. You need to initialise the Serial port after the MIDI library, like this:
+
+void setup() {
+  MIDI.begin();
+  Serial.begin(115200);
+}
+For more information please check the main page of the Hairless MIDI: http://projectgus.github.io/hairless-midiserial/
+
+Creadit
+- 
+This project is largly influenced by MIDI Arduino Drums by anouskadg
+http://www.instructables.com/id/MIDI-Arduino-Drums/?ALLSTEPS
+
+And the Drum Kit - Kit from SpikenzieLabs
+http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html)
