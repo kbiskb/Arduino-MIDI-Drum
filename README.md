@@ -55,20 +55,21 @@ Addition Information
 - 
 - The code is compatible with the Arduino MIDI Library. You need to initialise the Serial port after the MIDI library, like this:
 
-void setup() {
+  void setup() {
 
-  MIDI.begin();
+    MIDI.begin();
  
-  Serial.begin(115200);
+   Serial.begin(115200);
 
-}
+  }
 
-For more information please check the main page of the Hairless MIDI: http://projectgus.github.io/hairless-midiserial/
+  For more information please check the main page of the Hairless MIDI: http://projectgus.github.io/hairless-midiserial/
 
-------------------------------------------------------------------------------------------------------------
+
+
 - According to my inspiration of this project: MIDI Arduino Drums by anouskadg 
 
-If you are using Mac OX instead of the Windows, you don't need to download LoopMIDI and Hairless MIDI, neither using your own MIDI software. You can download the "Ardrumo" software, it would directly connect to your Arduino. More information please check his instructable page (http://www.instructables.com/id/MIDI-Arduino-Drums/?ALLSTEPS)
+  If you are using Mac OX instead of the Windows, you don't need to download LoopMIDI and Hairless MIDI, neither using your own MIDI   software. You can download the "Ardrumo" software, it would directly connect to your Arduino. More information please check his     instructable page (http://www.instructables.com/id/MIDI-Arduino-Drums/?ALLSTEPS)
 
 Creadit
 - 
