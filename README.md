@@ -65,6 +65,11 @@ void setup() {
 
 For more information please check the main page of the Hairless MIDI: http://projectgus.github.io/hairless-midiserial/
 
+------------------------------------------------------------------------------------------------------------
+- According to my inspiration of this project: MIDI Arduino Drums by anouskadg 
+
+If you are using Mac OX instead of the Windows, you don't need to download LoopMIDI and Hairless MIDI, neither using your own MIDI software. You can download the "Ardrumo" software, it would directly connect to your Arduino. More information please check his instructable page (http://www.instructables.com/id/MIDI-Arduino-Drums/?ALLSTEPS)
+
 Creadit
 - 
 This project is largly influenced by 
