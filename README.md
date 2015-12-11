@@ -70,4 +70,4 @@ http://www.instructables.com/id/MIDI-Arduino-Drums/?ALLSTEPS
 
 - Drum Kit - Kit from SpikenzieLabs
 
-http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html)
+http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html
