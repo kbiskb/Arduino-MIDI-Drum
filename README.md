@@ -55,13 +55,13 @@ Additional Information
 - 
 - The code is compatible with the Arduino MIDI Library. You need to initialise the Serial port after the MIDI library, like this:
 
-  void setup() {
+    void setup() {
 
-      MIDI.begin();
+        MIDI.begin();
  
-      Serial.begin(115200);
+        Serial.begin(115200);
 
-  }
+    }
 
   For more information please check the main page of the Hairless MIDI: http://projectgus.github.io/hairless-midiserial/
 
