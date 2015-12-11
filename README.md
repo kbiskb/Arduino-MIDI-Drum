@@ -63,10 +63,11 @@ For more information please check the main page of the Hairless MIDI: http://pro
 
 Creadit
 - 
-- This project is largly influenced by MIDI Arduino Drums by anouskadg
+This project is largly influenced by 
+- MIDI Arduino Drums by anouskadg
 
 http://www.instructables.com/id/MIDI-Arduino-Drums/?ALLSTEPS
 
-- And the Drum Kit - Kit from SpikenzieLabs
+- Drum Kit - Kit from SpikenzieLabs
 
 http://www.spikenzielabs.com/SpikenzieLabs/DrumKitKit.html)
