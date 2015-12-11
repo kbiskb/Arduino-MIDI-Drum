@@ -53,7 +53,7 @@ You can change certain parts of the code to adjust the setup and the sound of yo
 
 Additional Information
 - 
-- The code is compatible with the Arduino MIDI Library. You need to initialise the Serial port after the MIDI library, like this:
+- The source code does not need library, however, I have unploaded the Arduino MIDI library on the Github. The source code is compatible with the Arduino MIDI Library. If you want to use the library, you need to initialise the Serial port after the MIDI library, like this:
 
     void setup() {
 
